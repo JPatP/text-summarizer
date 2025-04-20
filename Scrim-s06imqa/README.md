@@ -17,3 +17,11 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 - [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
 Happy Coding!
+
+Error Debugging: 
+
+My pointers for solution are: 
+1. Buy $5 credits
+2. Make sure to create a new Anthropic api key after buying credits. Do not use old api key.
+3. Use the model "claude-3-5-sonnet-20240620". claude-3 and claude-7 will not work.
+4. Make sure to run "npm run deploy" every time I edit the worker/src/index.js file.
