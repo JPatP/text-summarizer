@@ -1,27 +1,27 @@
-# Claude-Powered Text Summarizer 🧠✨
+# Claude-Powered Text Summarizer
 
 A fast, Claude 3.5 Sonnet-powered summarization tool built on top of a frontend template provided by Scrimba.  
 I focused on developing the backend logic, API integration, and deploying a working AI-powered web tool.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
-👉 Frontend: [https://your-frontend-link.com](https://your-frontend-link.com)  
-👉 Backend (Cloudflare Worker): [https://worker.gonzaless424.workers.dev/](https://worker.gonzaless424.workers.dev/)
-
----
-
-## 🧩 Tech Stack
-
-- 🔗 Claude 3.5 Sonnet via Anthropic SDK
-- ⚙️ Cloudflare Workers (Backend API)
-- 🌐 HTML, CSS, JavaScript (Scrimba-provided frontend)
-- 🔐 CORS-enabled integration
+Frontend: [https://jpatp.github.io/text-summarizer/](https://jpatp.github.io/text-summarizer/)  
+Backend (Cloudflare Worker): [https://worker.jlgonzales.workers.dev//](https://worker.jlgonzales.workers.dev/)
 
 ---
 
-## ✨ Features
+## Tech Stack
+
+- Claude 3.5 Sonnet via Anthropic SDK
+- Cloudflare Workers (Backend API)
+- HTML, CSS, JavaScript (Scrimba-provided frontend)
+- CORS-enabled integration
+
+---
+
+## Features
 
 - Claude-based summarization with adjustable word count
 - CORS-compliant API setup using Cloudflare Workers
@@ -31,43 +31,17 @@ I focused on developing the backend logic, API integration, and deploying a work
 
 ---
 
-## 🛠️ Getting Started (Developer Setup)
+## My Contribution
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/claude-summarizer.git
-   cd claude-summarizer
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Deploy the backend (Cloudflare Worker):
-   ```bash
-   npx wrangler deploy
-   ```
-
-4. Run the frontend locally (using Vite):
-   ```bash
-   npm run dev
-   ```
-
----
-
-## ✅ My Contribution
-
-While the UI was provided through Scrimba's AI Engineer Path, **I fully implemented the backend integration**, including:
+While the UI was provided through Scrimba's Intro to Claude AI Course, **I fully implemented the backend integration**, including:
 
 - Claude 3.5 Sonnet API integration using Anthropic SDK
 - Cloudflare Worker CORS setup
 - JSON parsing and safe response handling
 - API debugging, deployment, and testing
 
----
 
-## 🐛 Debugging Solutions (What Helped Me Fix Errors)
+## Debugging Solutions (What Helped Me Fix Errors)
 
 Here are the critical solutions I found that made the API work:
 
@@ -79,14 +53,14 @@ Here are the critical solutions I found that made the API work:
    ```
 4. Always redeploy your worker after editing:
    ```bash
-   npx wrangler deploy
+   npx run deploy
    ```
 
 ---
 
-## 📚 Learning & Background
+## Learning & Background
 
-This project is part of the **Scrimba AI Engineer Path**.  
+This project is part of the **Intro to Claude AI**.  
 Skills demonstrated:
 
 - Claude API integration & deployment
@@ -96,24 +70,22 @@ Skills demonstrated:
 
 ---
 
-## 👤 Author
+## Author
 
 **John Patrick L. Gonzales**  
-📍 Japan | 🎓 UPOU Graduate Student | 🧪 QA + AI Engineer  
-🔗 [LinkedIn Profile](https://linkedin.com/in/jpatp)  
-🌐 [Portfolio Website](https://jpatp.github.io)
+ Japan | UPOU Graduate Student | QA + AI Engineer  
+[LinkedIn Profile](https://www.linkedin.com/in/jon-g-1a0369239/)  
+---
+
+## Use Cases
+
+- Study: TL;DR for papers, notes, readings  
+- Writing: Summarize blog drafts or proposals  
+- Productivity: Instant summaries for long inputs
 
 ---
 
-## 💼 Use Cases
-
-- 📚 Study: TL;DR for papers, notes, readings  
-- ✍️ Writing: Summarize blog drafts or proposals  
-- 📊 Productivity: Instant summaries for long inputs
-
----
-
-## ⚠️ Acknowledgment
+## Acknowledgment
 
 Frontend UI originally provided by Scrimba as part of the AI Engineer Path.  
 Backend Claude integration and deployment by me.
