@@ -49,11 +49,11 @@ Here are the critical solutions I found that made the API work:
 2. **Create a *new* API key** after buying credits — old keys might silently fail  
 3. Use the correct model name:  
    ```text
-   claude-3-5-sonnet-20240620
+   claude-3-5-sonnet-20240620. Do not use claude-3 or claude-7 as it will not work.
    ```
 4. Always redeploy your worker after editing:
    ```bash
-   npx run deploy
+   npm run deploy
    ```
 
 ---
