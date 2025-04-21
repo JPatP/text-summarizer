@@ -51,7 +51,7 @@ Here are the critical solutions I found that made the API work:
    ```text
    claude-3-5-sonnet-20240620. Do not use claude-3 or claude-7 as it will not work.
    ```
-4. Always redeploy your worker after editing:
+4. Always redeploy your worker after editing worker/src/index.js witht the command:
    ```bash
    npm run deploy
    ```
