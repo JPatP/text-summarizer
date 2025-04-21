@@ -70,13 +70,6 @@ Skills demonstrated:
 
 ---
 
-## Author
-
-**John Patrick L. Gonzales**  
- Japan | UPOU Graduate Student | QA + AI Engineer  
-[LinkedIn Profile](https://www.linkedin.com/in/jon-g-1a0369239/)  
----
-
 ## Use Cases
 
 - Study: TL;DR for papers, notes, readings  
